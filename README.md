@@ -9,6 +9,7 @@ from odchylki import isotol
 ```
 print(f'29h7 {isotol("29h7")}')  # retuns 29h7 (-21, 0, 28.979, 29.0)
 ```
+```
 print(f'29h7 {isotol("29h7",Dictionary=True)}')  # returns 29h7 {'ei': -21, 'es': 0, 'A': 28.979, 'B': 29.0}
 ```
 ```
